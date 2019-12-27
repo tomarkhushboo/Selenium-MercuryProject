@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Suite]" parallel="tests">
+  <test name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.mercury.tours.Mouse_hover_Action">
+        <methods>
+          <include name="LaunchBrowser"/>
+          <include name="mouse_hover_action"/>
+        </methods>
+      </class> <!-- com.mercury.tours.Mouse_hover_Action -->
+      <class name="com.mercury.tours.Drag_and_Drop">
+        <methods>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- com.mercury.tours.Drag_and_Drop -->
+      <class name="com.mercury.tours.hdfc_netbanking">
+        <methods>
+          <include name="hdfc_login"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- com.mercury.tours.hdfc_netbanking -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
