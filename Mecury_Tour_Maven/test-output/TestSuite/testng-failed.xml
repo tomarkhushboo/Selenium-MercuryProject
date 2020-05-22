@@ -8,8 +8,6 @@
         <methods>
           <include name="Login" invocation-numbers="0 1 2"/>
           <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="Sign_On"/>
           <include name="Sign_On"/>
         </methods>
       </class> <!-- com.mercury.tours.Cross_Browser_ex -->

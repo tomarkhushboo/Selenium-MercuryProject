@@ -33,7 +33,7 @@ public void LaunchBrowser(){
 		String absolutePath = System.getProperty("user.dir");
 		String filePath = absolutePath+"\\Images\\preassesment result.png";
 		System.out.println(filePath);
-		driver.navigate().refresh();
+		//driver.navigate().refresh();
 		driver.findElement(By.id("btnChooseFiles")).click();
 		uploadFile(filePath);
 		Thread.sleep(6000);

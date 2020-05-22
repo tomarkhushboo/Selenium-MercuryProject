@@ -3,14 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.mercury.tours.Mercury_Sign_On_Extent_Reports">
+      <class name="com.mercury.tours.Mouse_hover_Action">
         <methods>
-          <include name="closeBrowser"/>
-          <include name="startReport"/>
-          <include name="Sign_On_Success"/>
-          <include name="getResult"/>
+          <include name="LaunchBrowser"/>
+          <include name="mouse_hover_action"/>
         </methods>
-      </class> <!-- com.mercury.tours.Mercury_Sign_On_Extent_Reports -->
+      </class> <!-- com.mercury.tours.Mouse_hover_Action -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

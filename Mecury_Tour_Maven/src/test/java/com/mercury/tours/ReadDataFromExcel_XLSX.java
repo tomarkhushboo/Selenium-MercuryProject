@@ -13,7 +13,7 @@ public class ReadDataFromExcel_XLSX extends Application_Test_Data {
 	@BeforeTest
 	
 	public void LaunchApp() {
-		System.setProperty("Webdriver.chrome.driver","C:\\Users\\user1\\Desktop\\khushboo\\Mecury_Tour_Maven\\chromedriver.exe");
+		System.setProperty("Webdriver.chrome.driver","./drivers/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.navigate().to("http://newtours.demoaut.com/mercurywelcome.php");
 		driver.manage().window().maximize();
